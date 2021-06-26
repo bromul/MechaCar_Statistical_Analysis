@@ -60,7 +60,7 @@ Our p-value is lower than our threshold of .05 and the confidence interval does 
 
 ## Study Design: MechaCar vs Competition
 
-To deepen our understanding of the MechaCar and how it compares to the competition, more studies will be required. Below we have suggested some study designs to elevate the MechaCar in the market.
+To deepen our understanding of the MechaCar and how it compares to the competition, more studies will be required. Below we have suggested a study designed to elevate the MechaCar in the market.
 
 ### City Fuel Efficiency vs the Competition
 
