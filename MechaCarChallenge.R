@@ -32,3 +32,32 @@ total_summary <- COIL_DATA %>%
 lot_summary <- COIL_DATA %>% 
    group_by(Manufacturing_Lot) %>% 
    summarise(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
+
+
+
+## Deliverable 3 Technical Analysis
+
+# Population mean (1500)
+mu <- 1500
+
+# t-test comparing all manufacturing lots to population mean
+t.test(COIL_DATA$PSI,
+       mu = mu)
+
+# Lot 1 t-test 
+lot1 <- COIL_DATA[COIL_DATA$Manufacturing_Lot == 'Lot1',]
+
+t.test(lot1$PSI,
+       mu = mu)
+
+# Lot 2 t-test
+lot2 <- COIL_DATA[COIL_DATA$Manufacturing_Lot == 'Lot2',]
+
+t.test(lot2$PSI,
+       mu = mu)
+
+# Lot 3 t-test 
+lot3 <- COIL_DATA[COIL_DATA$Manufacturing_Lot == 'Lot3',]
+
+t.test(lot3$PSI,
+       mu = mu)
