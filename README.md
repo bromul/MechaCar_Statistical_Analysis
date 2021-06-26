@@ -10,9 +10,19 @@ Our model gives us an r^2 value of .7149 and an adjusted r^2 of .6825 (the adjus
 
 ## Summary Statistics on Suspension Coils
 
+According to design specifications for the MechaCar, the variance of the suspension coils _must not exceed 100 pounds per square inch_. As seen below, on overview of the MechaCar suspension coils at all lots is well within this metric, with a general variance of about 62.29 pounds per square inch:
+
+![Summary of All Suspension Coil PSI](Images/total_summary.PNG)
+
+However, this changes as we breakdown the analysis to individual manufacturing lots. Lots 1 and 2 are within specifications, with variances of about 0.98 and 7.47 pounds per square inch, respectively. No changes are recommended for their manufacturing processes at this time.
+
+Lot 3, however, is far above the variance threshold, with a MechaCar suspension coil variance of about 170.29. It is recommended that AutosRUs investigate the manufacturing process at Lot 3 and make any necessary changes to bring its variance back within listed specifications:
+
+![Summary of Suspension Coil PSI by Manufacturing Lot](Images/lot_summary.PNG)
+
+
+## T-tests on Suspension Coils
 
 
 
-
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
+## Study Design: MechaCar vs Competition
