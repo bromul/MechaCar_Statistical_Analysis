@@ -23,6 +23,39 @@ Lot 3, however, is far above the variance threshold, with a MechaCar suspension 
 
 ## T-tests on Suspension Coils
 
+T-Tests have been run to determine whether the mean PSI for all lots together, as well as individually, were statistically different than the MechaCar population mean of 1500 pounds per square inch.
+
+### All Lots
+
+As seen in the image below, we received a p-value of 0.06028 and produced and are 95% confident that the interval estimate of [1497.507, 1500.053] contains the true mean of all the lots:
+
+![T-Test Comparing All Lots to Population Mean](Images/ttest_all_lots.PNG)
+
+Since our p-value is above our threshold of .05 and since the confidence interval contains the population mean, we _cannot reject_ the null hypothesis that the true mean PSI of all the lots is equal to the population mean of 1500 pounds per square inch. 
+
+### Lot 1
+
+When we compared Lot 1's mean PSI to the population mean, we received a p-value of 1 and are 95% confident that the interval estimate of [1499.719, 1500.281] contains the true mean for Lot 1:
+
+![T-Test Comparing Lot 1 to Population Mean](Images/ttest_lot1.PNG)
+
+Since our p-value is far above our threshold of .05 and since the confidence interval contains the population mean, we _cannot reject_ the null hypothesis that the true mean PSI of Lot 1 is equal to the population mean of 1500 pounds per square inch.
+
+### Lot 2
+
+When we compared Lot 2's mean PSI to the population mean, we received a p-value of 0.6072 and are 95% confident that the interval estimate of [1499.423, 1500.977] contains the true mean for Lot 2:
+
+![T-Test Comparing Lot 2 to Population Mean](Images/ttest_lot2.PNG)
+
+Since our p-value is far above our threshold of .05 and since the confidence interval contains the population mean, we _cannot reject_ the null hypothesis that the true mean PSI of Lot 1 is equal to the population mean of 1500 pounds per square inch.
+
+### Lot 3
+
+When we compared Lot 3's mean PSI to the population mean, we received a p-value of 0.4168 and are 95% confident that the interval estimate of [1492.431, 1499.849] contains the true mean for Lot 3:
+
+![T-Test Comparing Lot 3 to Population Mean](Images/ttest_lot3.PNG)
+
+Our p-value is lower than our threshold of .05 and the confidence interval does not contain the population mean. Therefore, we _reject_ the null hypothesis and accept the alternative hypothesis that the true mean PSI of Lot 3 is _not equal_ to the population mean of 1500 pounds per square inch. It is recommended that AutosRUs investigate Lot 3's manufacturing process and make any necessary changes to bring Lot 3's mean PSI in line with the population.
 
 
 ## Study Design: MechaCar vs Competition
