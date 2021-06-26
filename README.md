@@ -60,22 +60,30 @@ Our p-value is lower than our threshold of .05 and the confidence interval does 
 
 ## Study Design: MechaCar vs Competition
 
-Statistical Study to quantify how MechaCar performs against the competition
+To deepen our understanding of the MechaCar and how it compares to the competition, more studies will be required. Below we have suggested some study designs to elevate the MechaCar in the market.
 
+### City Fuel Efficiency vs the Competition
 
-Consumer Interest Metrics:
-- Cost
-- Fuel Efficiency (City/Hwy)
-- Horse Power
-- Maintenance Cost
-- Safety Rating
+Since much of the AutosRUs consumer base is primarily located within cities, we suggest further studies on the MechaCar's fuel efficiency with city driving. One of AutosRUs' main competitors has recently released a vehicle with a stated city fuel efficiency of 35 miles per gallon (mpg). With new efficiency designs being added to the MechaCar, it will be useful to determine if its mileage in the city is statistically better than the competition's.
 
+#### Hypotheses
 
-Questions to Address:
-- Which metric(s) we'll test
-- What are the Null and Alternative Hypotheses
-- What statistical test will be used and why
-- What data is needed
+Null: The MechaCar's city fuel efficiency is equal to 35 miles per gallon, (H_0: mu = 35)
+
+Alternative: The MechaCar's city fuel efficiency is greater than 35 miles per gallon, (H_a: mu > 35)
+
+#### Statistical Test
+
+To perform this test, we suggest using a One-Tailed T-Test. This was chosen for two distinct reasons:
+
+1) The T-Test allows us to compare the means between two samples or populations, alerting us if there is a statistical difference between the given means. By this comparison, we can determine whether the MechaCar's city fuel efficiency is different from the competition's.
+
+2) By making the test one-tailed, we are looking at whether the MechaCar is _more_ fuel efficient with city driving than the competition. This is important as we do not care whether our product is mererly _different_ than the competition's, but is _better_ than theirs.
+
+#### Data
+
+Since our competitor has already released its new car, we already have their information on its city fuel efficiency (35 mpg). This makes data collection easier for us, since we only need to collect data on the MechaCar's city fuel efficiency. This can be obtained by driving the cars around in the city, or city-like conditions, and generating enough data to be effectively used in the test.
+
 
 
 
