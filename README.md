@@ -59,3 +59,23 @@ Our p-value is lower than our threshold of .05 and the confidence interval does 
 
 
 ## Study Design: MechaCar vs Competition
+
+Statistical Study to quantify how MechaCar performs against the competition
+
+
+Consumer Interest Metrics:
+- Cost
+- Fuel Efficiency (City/Hwy)
+- Horse Power
+- Maintenance Cost
+- Safety Rating
+
+
+Questions to Address:
+- Which metric(s) we'll test
+- What are the Null and Alternative Hypotheses
+- What statistical test will be used and why
+- What data is needed
+
+
+
